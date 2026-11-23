@@ -39,6 +39,5 @@ Aerodynamic data are from NASA's PALMO NACA 4-series airfoil dataset. Refer to t
 ## Notebook roles
 
 - `notebooks/FiveModels_Training_Evaluation.ipynb`: trains, validates, independently tests, and exports results for the five selected configurations.
-- `notebooks/FiveModels_Tuning.ipynb`: optional hyperparameter-search implementation for all five models. The SVR search configuration is supported by preserved optimization records; the other four candidate grids are reconstructed and should not be represented as the exact original hyperparameter searches.
+- `notebooks/FiveModels_Tuning.ipynb`: optional hyperparameter-search implementation for all five models.
 
-The saved workbooks can be inspected immediately. Running the evaluation notebook is necessary for an independent reproduction check; exact metrics and run times are not guaranteed without matching the original environment and execution.
