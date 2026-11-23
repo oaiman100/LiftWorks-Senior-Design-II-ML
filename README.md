@@ -28,7 +28,7 @@ The dataset contains **52,480 observations across 16 geometries**. Twelve geomet
 ## Methods
 **Inputs:** camber (%), thickness (%), Reynolds number, Mach number, and angle of attack. **Targets:** $C_l$, $C_d$, and $C_m$.
 
-The final model configurations are specified in the main notebook for all five algorithms. It performs ten repeated random 70/30 training/validation splits on the twelve development airfoils, followed by training on the complete development set and testing on four independent geometries. The repeated splits are fixed-configuration diagnostics, not a replacement for hyperparameter search. An optional, documented 3-fold SVR search is included in the same notebook; the other models use their specified final configurations. Its optional execution does not change the selected model settings automatically.
+The final model configurations are specified in the main notebook for all five algorithms. It performs ten repeated random 70/30 training/validation splits on the twelve development airfoils, followed by training on the complete development set and testing on four independent geometries. 
 
 Saved result workbooks are supplied to support model comparison; rerunning training is required to independently reproduce the numerical results.
 
